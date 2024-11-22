@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>貓貓日和咖啡館</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>貓貓日和咖啡館</h1>
+            <p>與貓咪共享美好時光的溫馨咖啡空間</p>
+            <div class="cta-buttons">
+                <a href="#details" class="btn primary">查看菜單</a>
+                <a href="#contact" class="btn secondary">預約訂位</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 詳細內容區塊 -->
+    <section id="details" class="details">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="about">關於我們</button>
+                <button class="tab-btn" data-tab="menu">餐點菜單</button>
+                <button class="tab-btn" data-tab="cat">店貓介紹</button>
+                <button class="tab-btn" data-tab="services">場地服務</button>
+            </div>
+
+            <div class="tab-content">
+                <!-- 關於我們 -->
+                <div class="tab-pane active" id="about">
+                    <h2>關於貓貓日和</h2>
+                    <div class="content-grid">
+                        <div class="text-content">
+                            <h3>我們的故事</h3>
+                            <p>「貓貓日和」的故事始於一個偶然的相遇。在一個雨天的午後，我在巷口發現了一隻渾身溼透的小暹羅貓。當時的牠，就是現在店裡的 000，正躲在紙箱裡發抖。</p>
+                            
+                            <p>帶回家照顧後，我發現 000 特別喜歡在我沖咖啡時在旁邊觀看，總是優雅地坐在吧台上，用牠漂亮的藍眼睛注視著手沖咖啡的過程。牠的存在，讓每天的咖啡時光都變得溫暖而特別。</p>
+                            
+                            <p>這樣的溫暖，讓我萌生了開一間貓咪咖啡館的想法。在這裡，不只是提供美味的咖啡和甜點，更重要的是創造一個讓人能夠放鬆、與貓咪互動的空間。000 從一隻需要被照顧的流浪貓，搖身一變成為了本店的店長，用牠的方式為每位到訪的客人帶來療癒。</p>
+
+                            <h3>特色亮點</h3>
+                            <ul>
+                                <li>精選單品咖啡豆，每週更換不同產地風味</li>
+                                <li>手作甜點，堅持使用天然食材</li>
+                                <li>與店貓零零零共度悠閒時光</li>
+                                <li>舒適的閱讀空間，提供精選書籍</li>
+                                <li>提供場地租借，適合小型聚會</li>
+                            </ul>
+                            
+                            <h3>營業資訊</h3>
+                            <p>營業時間：週二至週日 10:00-21:00（週一公休）</p>
+                            <p>最後點餐時間：20:30</p>
+                            <p class="special-note">＊每個月最後一個週一，我們會帶 000 去做健康檢查，請見諒</p>
+                        </div>
+                        <div class="image-content">
+                            <img src="images/cafe-interior.jpg" alt="咖啡廳環境">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 餐點菜單 -->
+                <div class="tab-pane" id="menu">
+                    <h2>餐點菜單</h2>
+                    <div class="menu-section">
+                        <h3>咖啡飲品</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <h4>招牌貓掌拿鐵</h4>
+                                <p>特調濃縮咖啡搭配絲絨奶泡，表面灑上可可粉製成貓掌圖案</p>
+                                <span class="price">NT$ 160</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>單品手沖咖啡</h4>
+                                <p>每週更換精選咖啡豆，由咖啡師手沖呈現最佳風味</p>
+                                <span class="price">NT$ 180</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>暹羅貓咪摩卡</h4>
+                                <p>濃郁巧克力與咖啡的完美結合，奶泡拉花呈現貓咪造型</p>
+                                <span class="price">NT$ 170</span>
+                            </div>
+                        </div>
+
+                        <h3>手作甜點</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <h4>貓掌蛋糕</h4>
+                                <p>香草戚風蛋糕搭配鮮奶油，造型可愛的招牌甜點</p>
+                                <span class="price">NT$ 140</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>季節水果塔</h4>
+                                <p>酥脆塔皮搭配卡士達醬與新鮮當季水果</p>
+                                <span class="price">NT$ 150</span>
+                            </div>
+                        </div>
+
+                        <h3>輕食餐點</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <h4>煙燻鮭魚貝果</h4>
+                                <p>自製貝果搭配煙燻鮭魚、酪梨醬與生菜</p>
+                                <span class="price">NT$ 220</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>義式烤蔬菜三明治</h4>
+                                <p>烤過的季節蔬菜、馬茲瑞拉起司與青醬</p>
+                                <span class="price">NT$ 200</span>
+                            </div>
+                        </div>
+
+                        <h3>特調咖啡</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <h4>招牌貓掌拿鐵</h4>
+                                <p>特調濃縮咖啡搭配絲絨奶泡，表面灑上可可粉製成貓掌圖案</p>
+                                <span class="price">NT$ 160</span>
+                                <span class="tag">熱門</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>焦糖瑪奇朵</h4>
+                                <p>香濃義式濃縮加入焦糖糖漿，頂部鋪上細緻奶泡</p>
+                                <span class="price">NT$ 150</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>貓咪摩卡</h4>
+                                <p>濃郁巧克力與咖啡的完美結合，奶泡拉花呈現貓咪造型</p>
+                                <span class="price">NT$ 170</span>
+                                <span class="tag">招牌</span>
+                            </div>
+                        </div>
+
+                        <h3>手沖咖啡</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <h4>衣索比亞 耶��雪菲</h4>
+                                <p>花香調性，帶有茉莉花香與柑橘果香</p>
+                                <span class="price">NT$ 180</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>瓜地馬拉 安提瓜</h4>
+                                <p>中度烘焙，具有巧克力香及柑橘酸味</p>
+                                <span class="price">NT$ 180</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>肯亞 奇里馬尼</h4>
+                                <p>明亮的酸性，帶有黑醋栗與紅茶韻味</p>
+                                <span class="price">NT$ 190</span>
+                            </div>
+                        </div>
+
+                        <h3>特色甜點</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <h4>貓掌戚風蛋糕</h4>
+                                <p>輕盈蓬鬆的戚風蛋糕，搭配特製鮮奶油，造型可愛</p>
+                                <span class="price">NT$ 140</span>
+                                <span class="tag">限量</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>季節水果塔</h4>
+                                <p>酥脆塔皮搭配卡士達醬與新鮮當季水果</p>
+                                <span class="price">NT$ 150</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>貓咪造型馬卡龍</h4>
+                                <p>多種口味可選：香草、巧克力、開心果、覆盆子</p>
+                                <span class="price">NT$ 60/顆</span>
+                            </div>
+                        </div>
+
+                        <h3>早午餐系列</h3>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <h4>英式早餐組合</h4>
+                                <p>太陽蛋、香腸、培根、烤蘑菇、烤番茄、豆子、吐司</p>
+                                <span class="price">NT$ 280</span>
+                                <span class="note">附飲品</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>班尼迪克蛋</h4>
+                                <p>英式馬芬、水波蛋、煙燻鮭魚、荷蘭醬</p>
+                                <span class="price">NT$ 260</span>
+                                <span class="note">附飲品</span>
+                            </div>
+                            <div class="menu-item">
+                                <h4>酪梨吐司</h4>
+                                <p>自製酪梨醬、太陽蛋、櫻桃番茄、芝麻菜</p>
+                                <span class="price">NT$ 220</span>
+                                <span class="note">附飲品</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-notes">
+                            <h4>餐點說明</h4>
+                            <ul>
+                                <li>價格均含服務費</li>
+                                <li>飲品可選擇：美式咖啡、紅茶、柳橙汁</li>
+                                <li>咖啡皆可選擇熱飲或冰飲</li>
+                                <li>冰飲+$10｜換成拿鐵+$30</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 店貓介紹 -->
+                <div class="tab-pane" id="cat">
+                    <h2>我們的店貓</h2>
+                    <div class="cat-profile">
+                        <div class="cat-image">
+                            <img src="images/000.jpg" alt="000">
+                        </div>
+                        <div class="cat-info">
+                            <h3>000 (零零零)</h3>
+                            <p>年齡：3歲</p>
+                            <p>品種：暹羅貓</p>
+                            <p>個性：優雅、親人、愛撒嬌</p>
+                            <p>特殊技能：會主動跟客人打招呼，最愛趴在櫃檯看著大家點餐</p>
+                            <p>喜歡的東西：曬太陽、看著外面的鳥兒、跟客人玩逗貓棒</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 場地服務 -->
+                <div class="tab-pane" id="services">
+                    <h2>場地服務</h2>
+                    <div class="services-content">
+                        <div class="service-item">
+                            <h3>包場服務</h3>
+                            <p>提供小型聚會、生日派對、讀書會等場地租借服務</p>
+                            <ul>
+                                <li>容納人數：最多20人</li>
+                                <li>時段：平日晚上18:00後，假日全天</li>
+                                <li>費用：每小時2000元（最少2小時）</li>
+                                <li>含基本飲品與點心</li>
+                            </ul>
+                        </div>
+                        <div class="service-item">
+                            <h3>貓咪互動須知</h3>
+                            <ul>
+                                <li>請勿強迫貓咪互動</li>
+                                <li>請勿餵食貓咪人類食物</li>
+                                <li>如需拍照，請關閉閃光燈</li>
+                                <li>保持安靜的環境，不打擾貓咪休息</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡我們 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>聯絡我們</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>聯絡方式</h3>
+                        <ul>
+                            <li>
+                                <i class="icon-phone"></i>
+                                電話：(02) 1234-5678
+                            </li>
+                            <li>
+                                <i class="icon-email"></i>
+                                Email：contact@example.com
+                            </li>
+                            <li>
+                                <i class="icon-location"></i>
+                                地址：台北市信義區信義路100號
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info-item">
+                        <h3>營業時間</h3>
+                        <p>週一至週五：09:00 - 18:00</p>
+                        <p>週六、週日：休息</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>傳送訊息給我們</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="電子郵件" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="聯絡電話">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="請輸入您的訊息" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">送出訊息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
